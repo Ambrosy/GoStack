@@ -20,7 +20,7 @@ app.post('/projects',(request, response)=>{
 
 app.put('/projects/:id',(request, response)=>{
     return response.json([
-        'Projeto 1',
+        'Projeto 0',
         'Projeto 2',
         'Projeto 3'
     ]);
