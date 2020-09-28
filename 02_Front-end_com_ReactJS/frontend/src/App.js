@@ -3,11 +3,11 @@ import React,{ useState } from 'react';
 import Header from "./components/Header";
 
 function App(){
-    const projects = useState(['Desenvolvimento de app','Front-end web']);
+    const [projects,setProjects] = useState(['Desenvolvimento de app','Front-end web']);
     
     function handleAddProject(){
         projects.push(`Novo projeto ${Date.now()}`);
-
+        //setProjects
         console.log(projects);
     }
     
